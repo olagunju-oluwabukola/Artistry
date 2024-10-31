@@ -1,13 +1,11 @@
 <template>
   <div>
-    Market place
+    <Photogallery/>
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import Photogallery from '@/components/Photogallery.vue';
 </script>
 
 <style>
